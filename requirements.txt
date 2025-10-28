@@ -1,0 +1,4 @@
+streamlit>=1.37
+garak>=0.10.0
+PyYAML>=6.0.2
+pydantic>=2.9.2
