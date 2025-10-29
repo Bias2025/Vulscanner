@@ -1,4 +1,13 @@
-# --- unchanged imports and setup above ---
+import os
+os.environ["STREAMLIT_WATCHDOG"] = "false"
+
+from garak_scanner_toolkit import (
+    GarakScanner,
+    GarakAnalyzer,
+    ScanConfig,
+    ScanCategory,
+)
+
 
 def preflight(cfg: ScanConfig):
     report = {"checks": []}
